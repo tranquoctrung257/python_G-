@@ -47,3 +47,17 @@ else:
     print("nhập sai tháng") 
 
 # bài 9 viết chương trình giải phương trình bậc 2
+    
+a = float(input("nhập a từ bàn phím: "))
+b = float(input("nhập b từ bàn phím: "))
+c = float(input("nhập c từ bàn phím: "))
+
+if a > 0:
+    delta = (b**2) - (4 * a * c)
+    if delta < 0 :
+        print("phương trình vô nghiệm")
+    elif delta == 0:
+        print("phương trình có nghiệm kép",-b / (2 * a))
+    else:
+        print("phương trình có hai nghiệm x1= ", (-b + delta ** 0.5) / (2*a))
+        print("phương trình có hai nghiệm x1= ", (-b - delta ** 0.5) / (2*a))
