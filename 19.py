@@ -8,9 +8,3 @@ b = random.randrange(101)
 print(a)
 print(b)
 
-c = 3
-while a != c:
-    c = int(input("nhập lại: "))
-    print(a)
-print(("bạn nhập chính sác"))
-
